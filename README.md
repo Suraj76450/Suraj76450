@@ -5,7 +5,7 @@
 <h3 align="center">
   🚀 <span style="color:#FF5733;">Data Science Enthusiast</span> | 
   🤖 <span style="color:#33FF57;">AI Explorer</span> | 
-  💻 <span style="color:#3380FF;">Future ML Engineer</span>
+  💻 <span style="color:#3380FF;">Data Analyst Enthusiast</span>
 </h3>
 
 <p align="center">
@@ -39,7 +39,7 @@
 
 ---
 
-## 🎮 <span style="color:#FF4500;">Snake Game</span>
+## 🎮 <span style="color:#FF4500;"></span>
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg" />
