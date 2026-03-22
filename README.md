@@ -1,88 +1,104 @@
+<h1 align="center">Hi 👋, I'm Suraj Kumar</h1>
+<h3 align="center">🚀 Data Science Enthusiast | AI Explorer | Future ML Engineer</h3>
 
-# 👋 Hi, I'm Suraj Kumar
-
-🎓 B.Tech Student | 💻 Aspiring Data Scientist & AI Developer
-📍 India
-
----
-
-## 🚀 About Me
-
-* Passionate about **Data Science, Machine Learning, and AI**
-* Currently working on **Embedding-based AI Projects & RAG systems**
-* Learning **Python, Data Analysis, and Backend Development**
-* Interested in solving real-world problems using data
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com/?lines=AI+Developer;Data+Science+Learner;Building+Smart+Systems;Future+Engineer&center=true&width=500&height=45">
+</p>
 
 ---
 
-## 🛠️ Tech Stack
+## 🌌 3D Contribution Graph
 
-* **Languages:** Python, SQL
-* **Libraries:** Pandas, NumPy, Scikit-learn
-* **Tools:** Git, GitHub, VS Code
-* **Frameworks:** Django (Basics)
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Suraj76450&theme=tokyonight" />
+</p>
 
 ---
 
-## 📂 Projects
+## 🧠 About Me
 
-🔹 **AI Q&A System (RAG-based)**
+* 🎓 B.Tech Student passionate about **AI & Data Science**
+* 🤖 Working on **RAG-based AI projects (Embeddings + NLP)**
+* 📊 Love solving problems using **data-driven approaches**
+* ⚡ Consistently learning and building
 
-* Built using embeddings and cosine similarity
+---
+
+## 🚀 Tech Stack
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=python,sql,git,github,vscode,django" />
+</p>
+
+---
+
+## 🎮 GitHub Snake Game
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg" />
+</p>
+
+---
+
+## 🔥 Featured Projects
+
+### 🤖 AI Q&A System (RAG)
+
+* Uses **embeddings + cosine similarity**
 * Retrieves relevant context and generates answers
 
-🔹 **Data Analysis Projects**
+---
 
-* Worked with real datasets (cleaning, preprocessing, visualization)
+### 📊 Data Analysis
 
-🔹 **Django Learning Projects**
+* Data cleaning, preprocessing, visualization
+* Extracting meaningful insights from datasets
 
-* Basic web applications to understand backend development
+---
+
+### 🌐 Django Apps
+
+* Backend learning projects
+* Understanding real-world application flow
 
 ---
 
 ## 📊 GitHub Stats
 
-![Suraj's GitHub stats](https://github-readme-stats.vercel.app/api?username=Suraj76450\&show_icons=true\&theme=radical)
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Suraj76450&show_icons=true&theme=tokyonight" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Suraj76450&theme=tokyonight" />
+</p>
 
 ---
 
-## 📈 Currently Learning
+## 🚀 3D Activity Graph
 
-* Advanced Machine Learning
-* NLP & LLMs
-* Big Data Tools
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Suraj76450&theme=tokyo-night" />
+</p>
 
 ---
 
 ## 🎯 Goals
 
-* Build industry-level AI projects
-* Contribute to open source
-* Get placed in a top tech company
+* 🚀 Build real-world AI systems
+* 🌍 Contribute to open source
+* 💼 Become a skilled Data Scientist
 
 ---
 
-## 📫 Connect With Me
+## 🤝 Connect With Me
 
-* 🔗 LinkedIn: https://www.linkedin.com/
-* 📧 Email: [your-email@example.com](mailto:your-email@example.com)
+<p align="center">
+<a href="https://www.linkedin.com/">
+  <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin" />
+</a>
+<a href="mailto:your-email@example.com">
+  <img src="https://img.shields.io/badge/Email-red?style=for-the-badge&logo=gmail" />
+</a>
+</p>
 
 ---
 
-⭐ *“Keep learning, keep building.”*
-
-<!--
-**Suraj76450/Suraj76450** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+<h3 align="center">⚡ Code. Learn. Build. Repeat.</h3>
