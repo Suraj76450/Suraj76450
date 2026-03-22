@@ -98,10 +98,10 @@
 ## 🤝 <span style="color:#00FA9A;">Connect With Me</span>
 
 <p align="center">
-<a href="https://www.linkedin.com/">
+<a href="https://www.linkedin.com/feed/">
   <img src="https://img.shields.io/badge/LinkedIn-00FFFF?style=for-the-badge&logo=linkedin&logoColor=black" />
 </a>
-<a href="mailto:your-email@example.com">
+<a href="mailto:surajkumarydv3@gmail.com">
   <img src="https://img.shields.io/badge/Email-FF00FF?style=for-the-badge&logo=gmail&logoColor=white" />
 </a>
 </p>
