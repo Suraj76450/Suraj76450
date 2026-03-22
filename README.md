@@ -73,10 +73,12 @@
 ## 📊 <span style="color:#00BFFF;">GitHub Stats</span>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Suraj76450&show_icons=true&theme=tokyonight&title_color=00FFFF&icon_color=FF00FF&text_color=FFFFFF" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Suraj76450&theme=tokyonight&ring=FF00FF&fire=FF4500" />
+  <img src="https://github-readme-stats.vercel.app/api?username=Suraj76450&show_icons=true&theme=tokyonight" />
 </p>
 
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Suraj76450&layout=compact&theme=tokyonight" />
+</p>
 ---
 
 ## 🚀 <span style="color:#ADFF2F;">Activity Graph</span>
