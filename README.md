@@ -87,7 +87,6 @@
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=Suraj76450&theme=react-dark&line=00FFFF&point=FF00FF" />
 </p>
 
----
 
 ## 🎯 <span style="color:#FF6347;">Goals</span>
 
