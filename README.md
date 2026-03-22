@@ -79,7 +79,6 @@
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Suraj76450&layout=compact&theme=tokyonight" />
 </p>
----
 
 ## 🚀 <span style="color:#ADFF2F;">Activity Graph</span>
 
