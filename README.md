@@ -1,13 +1,20 @@
-<h1 align="center">Hi 👋, I'm Suraj Kumar</h1>
-<h3 align="center">🚀 Data Science Enthusiast | AI Explorer | Future ML Engineer</h3>
+<h1 align="center">
+  🌈 Hi 👋, I'm <span style="color:#00FFFF;">Suraj Kumar</span>
+</h1>
+
+<h3 align="center">
+  🚀 <span style="color:#FF5733;">Data Science Enthusiast</span> | 
+  🤖 <span style="color:#33FF57;">AI Explorer</span> | 
+  💻 <span style="color:#3380FF;">Future ML Engineer</span>
+</h3>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com/?lines=AI+Developer;Data+Science+Learner;Building+Smart+Systems;Future+Engineer&center=true&width=500&height=45">
+  <img src="https://readme-typing-svg.herokuapp.com/?lines=AI+Developer;Data+Science+Learner;Building+Cool+Projects;Future+Engineer&center=true&width=500&height=45&color=00FFFF">
 </p>
 
 ---
 
-## 🌌 3D Contribution Graph
+## 🌌 <span style="color:#FF00FF;">3D Contribution Graph</span>
 
 <p align="center">
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Suraj76450&theme=tokyonight" />
@@ -15,16 +22,16 @@
 
 ---
 
-## 🧠 About Me
+## 🧠 <span style="color:#00FFCC;">About Me</span>
 
-* 🎓 B.Tech Student passionate about **AI & Data Science**
-* 🤖 Working on **RAG-based AI projects (Embeddings + NLP)**
-* 📊 Love solving problems using **data-driven approaches**
-* ⚡ Consistently learning and building
+* 🎓 B.Tech Student passionate about <span style="color:#FFD700;">AI & Data Science</span>
+* 🤖 Working on <span style="color:#FF69B4;">RAG-based AI projects</span>
+* 📊 Love solving problems using <span style="color:#7CFC00;">data</span>
+* ⚡ Consistently learning & building
 
 ---
 
-## 🚀 Tech Stack
+## 🚀 <span style="color:#FFA500;">Tech Stack</span>
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=python,sql,git,github,vscode,django" />
@@ -32,7 +39,7 @@
 
 ---
 
-## 🎮 GitHub Snake Game
+## 🎮 <span style="color:#FF4500;">Snake Game</span>
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg" />
@@ -40,65 +47,67 @@
 
 ---
 
-## 🔥 Featured Projects
+## 🔥 <span style="color:#FF1493;">Featured Projects</span>
 
-### 🤖 AI Q&A System (RAG)
+### 🤖 <span style="color:#00FFFF;">AI Q&A System (RAG)</span>
 
-* Uses **embeddings + cosine similarity**
-* Retrieves relevant context and generates answers
+* Uses <span style="color:#FFD700;">embeddings + cosine similarity</span>
+* Retrieves context and generates answers
 
 ---
 
-### 📊 Data Analysis
+### 📊 <span style="color:#32CD32;">Data Analysis</span>
 
 * Data cleaning, preprocessing, visualization
-* Extracting meaningful insights from datasets
+* Extract insights from datasets
 
 ---
 
-### 🌐 Django Apps
+### 🌐 <span style="color:#1E90FF;">Django Apps</span>
 
 * Backend learning projects
-* Understanding real-world application flow
+* Understanding real-world apps
 
 ---
 
-## 📊 GitHub Stats
+## 📊 <span style="color:#00BFFF;">GitHub Stats</span>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Suraj76450&show_icons=true&theme=tokyonight" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Suraj76450&theme=tokyonight" />
+  <img src="https://github-readme-stats.vercel.app/api?username=Suraj76450&show_icons=true&theme=tokyonight&title_color=00FFFF&icon_color=FF00FF&text_color=FFFFFF" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Suraj76450&theme=tokyonight&ring=FF00FF&fire=FF4500" />
 </p>
 
 ---
 
-## 🚀 3D Activity Graph
+## 🚀 <span style="color:#ADFF2F;">Activity Graph</span>
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Suraj76450&theme=tokyo-night" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Suraj76450&theme=react-dark&line=00FFFF&point=FF00FF" />
 </p>
 
 ---
 
-## 🎯 Goals
+## 🎯 <span style="color:#FF6347;">Goals</span>
 
 * 🚀 Build real-world AI systems
 * 🌍 Contribute to open source
-* 💼 Become a skilled Data Scientist
+* 💼 Become a Data Scientist
 
 ---
 
-## 🤝 Connect With Me
+## 🤝 <span style="color:#00FA9A;">Connect With Me</span>
 
 <p align="center">
 <a href="https://www.linkedin.com/">
-  <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin" />
+  <img src="https://img.shields.io/badge/LinkedIn-00FFFF?style=for-the-badge&logo=linkedin&logoColor=black" />
 </a>
 <a href="mailto:your-email@example.com">
-  <img src="https://img.shields.io/badge/Email-red?style=for-the-badge&logo=gmail" />
+  <img src="https://img.shields.io/badge/Email-FF00FF?style=for-the-badge&logo=gmail&logoColor=white" />
 </a>
 </p>
 
 ---
 
-<h3 align="center">⚡ Code. Learn. Build. Repeat.</h3>
+<h3 align="center" style="color:#FFD700;">
+  ⚡ "Dream Big • Build Bigger • Stay Consistent" ⚡
+</h3>
