@@ -14,19 +14,7 @@
   <img src="https://komarev.com/ghpvc/?username=Suraj76450&label=Profile%20Views&color=00FFFF&style=flat" />
 </p>
 
----
 
-## 🧭 Navigation
-
-<p align="center">
-  <a href="#about-me">About</a> •
-  <a href="#tech-stack">Tech Stack</a> •
-  <a href="#projects">Projects</a> •
-  <a href="#github-stats">Stats</a> •
-  <a href="#connect-with-me">Contact</a>
-</p>
-
----
 
 ## 🧠 About Me
 
