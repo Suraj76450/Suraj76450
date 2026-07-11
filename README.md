@@ -159,4 +159,3 @@
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorStart=00FFFF&customColorEnd=8A2BE2&height=100&section=footer" width="100%" />
 </p>
-```
