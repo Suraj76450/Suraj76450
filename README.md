@@ -97,22 +97,13 @@
 
 <!-- Side-by-side images without table borders (rendered as inline paragraph images) -->
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Suraj76450&show_icons=true&theme=tokyonight" height="185" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Suraj76450&layout=compact&theme=tokyonight" height="185" alt="Top Languages" />
+  <img src="https://github-stats-extended.vercel.app/api?username=Suraj76450&show_icons=true&theme=tokyonight" height="185" alt="GitHub Stats" />
+  <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=Suraj76450&layout=compact&theme=tokyonight" height="185" alt="Top Languages" />
 </p>
 
 <p align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com?user=Suraj76450&theme=tokyonight&hide_border=true" height="185" alt="Streak Stats" />
 </p>
-
-<!-- Interactive GitHub Trophies -->
-<details>
-  <summary align="center"><strong>🏆 Click to see my GitHub Trophies</strong></summary>
-  <br/>
-  <p align="center">
-    <img src="https://github-profile-trophy.vercel.app/?username=Suraj76450&theme=tokyonight&no-frame=true&margin-w=10" alt="GitHub Trophies" />
-  </p>
-</details>
 
 <!-- Crazy Snake Game Contribution Graph -->
 <p align="center">
