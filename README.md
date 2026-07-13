@@ -90,6 +90,7 @@
 
 ### 🌐 Django Web Applications
 > Full-featured, secure backend applications with robust database schemas and REST API integrations.
+<!-- Django Web Applications Details: Staged for Code Review -->
 * 🛠️ **Tech Stack:** Django, Python, MySQL, HTML/CSS
 * 📁 **Repo Link:** [github.com/Suraj76450/Django-Apps](https://github.com/Suraj76450/Django-Apps)
 
