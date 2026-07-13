@@ -110,7 +110,7 @@
 
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Suraj76450&theme=tokyo-night&area=true&hide_border=true&line=00FFFF&point=FF00FF" width="100%" alt="Activity Graph" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Suraj76450&theme=tokyo-night&area=true&radius=10" width="100%" alt="Activity Graph" />
 </p>
 
 ---
