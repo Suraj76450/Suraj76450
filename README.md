@@ -105,11 +105,7 @@
   <img src="https://github-readme-streak-stats.herokuapp.com?user=Suraj76450&theme=tokyonight&hide_border=true" height="185" alt="Streak Stats" />
 </p>
 
-<!-- Crazy Snake Game Contribution Graph -->
-<p align="center">
-  <strong>Contribution Snake Game Eating My Commits 🐍</strong><br/>
-  <img src="https://raw.githubusercontent.com/Suraj76450/Suraj76450/output/github-contribution-grid-snake.svg" alt="GitHub Contribution Snake" width="100%" />
-</p>
+
 
 <p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=Suraj76450&theme=tokyo-night&hide_border=true&line=00FFFF&point=FF00FF" width="100%" alt="Activity Graph" />
