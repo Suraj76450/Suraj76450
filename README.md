@@ -129,10 +129,7 @@
 
 ---
 
-<!-- Dev Quote and Connect with Me section -->
-<p align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Dev Quote" />
-</p>
+
 
 <h2 align="center">🤝 Let's Connect & Collaborate!</h2>
 
