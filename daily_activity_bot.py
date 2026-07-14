@@ -76,21 +76,7 @@ def main():
     today_str = datetime.now().strftime("%Y-%m-%d")
     branch_name = f"feature/daily-bot-{today_str}-{random.randint(100, 999)}"
     
-    # ----------------- 1. CREATE AND CLOSE AN ISSUE -----------------
-    print("\nCreating daily Issue...")
-    issue_data = {
-        "title": f"Daily Task Log - {today_str}",
-        "body": f"Automated daily task tracker for {today_str}."
-    }
-    issue = github_api_request(f"/repos/{owner}/{repo}/issues", "POST", issue_data, token)
-    issue_num = issue["number"]
-    print(f"[SUCCESS] Issue #{issue_num} created successfully.")
-    
-    print("Closing daily Issue...")
-    github_api_request(f"/repos/{owner}/{repo}/issues/{issue_num}", "PATCH", {"state": "closed"}, token)
-    print(f"[SUCCESS] Issue #{issue_num} closed.")
-    
-    # ----------------- 2. CREATE A LOCAL BRANCH AND COMMIT -----------------
+    # ----------------- 1. CREATE A LOCAL BRANCH AND COMMIT -----------------
     print("\nPreparing branch and commits locally...")
     subprocess.run(["git", "checkout", "-b", branch_name], check=True)
     
@@ -107,13 +93,13 @@ def main():
     print(f"Pushing branch '{branch_name}' to GitHub...")
     subprocess.run(["git", "push", "origin", branch_name], check=True)
     
-    # ----------------- 3. CREATE A PULL REQUEST -----------------
+    # ----------------- 2. CREATE A PULL REQUEST -----------------
     print("\nOpening Pull Request...")
     pr_data = {
         "title": f"chore: daily bot update {today_str}",
         "head": branch_name,
         "base": "main",
-        "body": f"Closes #{issue_num}"
+        "body": f"Daily automated update for {today_str}."
     }
     pr = github_api_request(f"/repos/{owner}/{repo}/pulls", "POST", pr_data, token)
     pr_num = pr["number"]
@@ -143,7 +129,7 @@ def main():
     subprocess.run(["git", "branch", "-d", branch_name], check=True)
     
     print("\n[SUCCESS] ALL ACTIONS COMPLETED SUCCESSFULLY!")
-    print("Logged: 1 Issue, 1 Pull Request, 1 Code Review, and Commits.")
+    print("Logged: 1 Pull Request, 1 Code Review, and Commits.")
 
 if __name__ == "__main__":
     main()
