@@ -16,21 +16,21 @@ def get_github_token():
                 if line.startswith("GITHUB_TOKEN="):
                     return line.strip().split("=", 1)[1]
     
-    print("\n🔑 GitHub Access Token Required!")
+    print("\n[INFO] GitHub Access Token Required!")
     print("To automate Issues, PRs, and Code Reviews, this script needs a Personal Access Token (Classic).")
     print("1. Go to: https://github.com/settings/tokens")
     print("2. Click 'Generate new token (classic)'")
     print("3. Check the 'repo' scope box.")
     print("4. Generate and copy the token.")
     
-    token = input("\n👉 Paste your GitHub Personal Access Token here: ").strip()
+    token = input("\n> Paste your GitHub Personal Access Token here: ").strip()
     if token:
         with open(env_file, "w") as f:
             f.write(f"GITHUB_TOKEN={token}\n")
         print(f"Token saved to {env_file}\n")
         return token
     else:
-        print("❌ No token provided. Exiting.")
+        print("[ERROR] No token provided. Exiting.")
         exit(1)
 
 def get_repo_info():
@@ -65,7 +65,7 @@ def github_api_request(url, method, data, token):
             return json.loads(response.read().decode("utf-8"))
     except urllib.error.HTTPError as e:
         error_msg = e.read().decode("utf-8")
-        print(f"❌ API Error ({method} {url}): {e.code} - {error_msg}")
+        print(f"[ERROR] API Error ({method} {url}): {e.code} - {error_msg}")
         raise e
 
 def main():
@@ -84,11 +84,11 @@ def main():
     }
     issue = github_api_request(f"/repos/{owner}/{repo}/issues", "POST", issue_data, token)
     issue_num = issue["number"]
-    print(f"✅ Issue #{issue_num} created successfully.")
+    print(f"[SUCCESS] Issue #{issue_num} created successfully.")
     
     print("Closing daily Issue...")
     github_api_request(f"/repos/{owner}/{repo}/issues/{issue_num}", "PATCH", {"state": "closed"}, token)
-    print(f"✅ Issue #{issue_num} closed.")
+    print(f"[SUCCESS] Issue #{issue_num} closed.")
     
     # ----------------- 2. CREATE A LOCAL BRANCH AND COMMIT -----------------
     print("\nPreparing branch and commits locally...")
@@ -117,7 +117,7 @@ def main():
     }
     pr = github_api_request(f"/repos/{owner}/{repo}/pulls", "POST", pr_data, token)
     pr_num = pr["number"]
-    print(f"✅ Pull Request #{pr_num} opened successfully.")
+    print(f"[SUCCESS] Pull Request #{pr_num} opened successfully.")
     
     # ----------------- 4. SUBMIT A CODE REVIEW ON THE PR -----------------
     print("Submitting Code Review comment on the Pull Request...")
@@ -126,7 +126,7 @@ def main():
         "event": "COMMENT"
     }
     github_api_request(f"/repos/{owner}/{repo}/pulls/{pr_num}/reviews", "POST", review_data, token)
-    print(f"✅ Code Review submitted on PR #{pr_num}.")
+    print(f"[SUCCESS] Code Review submitted on PR #{pr_num}.")
     
     # ----------------- 5. MERGE THE PULL REQUEST -----------------
     print("Merging Pull Request...")
@@ -134,7 +134,7 @@ def main():
         "commit_title": f"Merge pull request #{pr_num} from {branch_name}"
     }
     github_api_request(f"/repos/{owner}/{repo}/pulls/{pr_num}/merge", "PUT", merge_data, token)
-    print(f"✅ Pull Request #{pr_num} merged.")
+    print(f"[SUCCESS] Pull Request #{pr_num} merged.")
     
     # ----------------- 6. LOCAL CLEANUP -----------------
     print("\nCleaning up local workspace...")
@@ -142,7 +142,7 @@ def main():
     subprocess.run(["git", "pull"], check=True)
     subprocess.run(["git", "branch", "-d", branch_name], check=True)
     
-    print("\n🎉 ALL ACTIONS COMPLETED SUCCESSFULLY!")
+    print("\n[SUCCESS] ALL ACTIONS COMPLETED SUCCESSFULLY!")
     print("Logged: 1 Issue, 1 Pull Request, 1 Code Review, and Commits.")
 
 if __name__ == "__main__":
