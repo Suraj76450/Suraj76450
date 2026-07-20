@@ -3,8 +3,8 @@ import random
 import subprocess
 from datetime import datetime
 
-# Choose a random number of commits between 10 and 12
-num_commits = random.randint(10, 12)
+# Choose a random number of commits between 6 and 8
+num_commits = random.randint(6, 8)
 log_file = "activity_log.txt"
 
 print(f"Generating {num_commits} daily commits...")
